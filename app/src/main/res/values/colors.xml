@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/purple_500</color>
+    <color name="purple_200">#ff0095FF</color>
+    <color name="purple_500">#ff0095FF</color>
+    <color name="purple_700">#ff0095FF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="whiteColor">#fff</color>
+    <color name="blueColor">#ff0095FF</color>
+    <color name="editTextBack">#f2f2f2</color>
+    <color name="greenColor">#00a859</color>
+    <color name="colorPrimaryDark">#FBBE0E</color>
+    <color name="colorAccent">#FBBE0E</color>
+    <color name="cardColor">#ffffff</color>
+    <color name="textcardColor">#3f3f3f</color>
+    <color name="colorblack">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#000000</color>
+    <color name="gradStop">#000000</color>
+    <color name="login_form_details">#ccffffff</color>
+    <color name="login_form_details_light">#1affffff</color>
+    <color name="login_form_details_medium">#1affffff</color>
+    <color name="gray">#949494</color>
+    <color name="abc_input_method_navigation_guard">@android:color/black</color>
+    <color name="abc_search_url_text_normal">#7fa87f</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+    <color name="accent_material_light">#000000</color>
+    <color name="backgroundColor">#fafafa</color>
+    <color name="background_floating_material_dark">@color/material_grey_800</color>
+    <color name="background_floating_material_light">@android:color/white</color>
+    <color name="background_material_dark">@color/material_grey_850</color>
+    <color name="background_material_light">@color/material_grey_50</color>
+    <color name="blue">#3b8fb6</color>
+    <color name="blue_dark">#19476b</color>
+    <color name="blue_light">#00BFFF</color>
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+
+
+    <color name="dark_blue">#00BFFF</color>
+    <color name="light_blue">#00BFFF</color>
+
+</resources>

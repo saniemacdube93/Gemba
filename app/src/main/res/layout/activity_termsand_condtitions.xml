@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/whiteColor"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="0dp"
+    tools:context=".PolicyActivity">
+    <!-- vertical ScrollView to make all the items or views scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <!-- LinearLayout Inside ScrollView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/gemba"
+                />
+
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <TextView
+                android:layout_marginTop="0dp"
+                android:id="@+id/spinner23390"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1.4"
+                android:text="Privacy Policy"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+          
+
+
+
+            <LinearLayout
+                android:id="@+id/secondLayou9t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- place one TextView and one EditText inside layout using weight property -->
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_weight="0.6"
+android:layout_gravity="left"                    android:paddingLeft="0dp"
+                    android:text="Decline"
+                    android:textColor="@color/blueColor"
+                    />
+
+                <TextView
+                    android:id="@+id/spinnertexy"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1.4"
+                    android:paddingLeft="10dp"
+                    android:text="Accept"
+                    android:textColor="@color/blueColor" />
+            </LinearLayout>
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+
+            <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
