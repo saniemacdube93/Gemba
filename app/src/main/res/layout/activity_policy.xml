@@ -24,7 +24,7 @@
 
             <!-- create a Linear Layout with horizontal orientation and weightSum property -->
 
-            <ImageView
+            <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/imageView2"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -32,8 +32,25 @@
                 android:layout_marginTop="0dp"
                 android:paddingLeft="10dp"
                 android:src="@drawable/gemba"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="false"
+                app:lottie_rawRes="@raw/demo12"
                 />
 
+
+<!--            <com.airbnb.lottie.LottieAnimationView-->
+<!--                android:id="@+id/imageView25"-->
+<!--                android:layout_width="264dp"-->
+<!--                android:layout_height="203dp"-->
+<!--                android:layout_marginStart="141dp"-->
+<!--                android:layout_marginTop="48dp"-->
+<!--                android:layout_marginEnd="142dp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:lottie_autoPlay="true"-->
+<!--                app:lottie_loop="false"-->
+<!--                app:lottie_rawRes="@raw/demo" />-->
             <LinearLayout
                 android:id="@+id/secondLayout"
                 android:layout_width="match_parent"
